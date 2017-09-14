@@ -1,6 +1,7 @@
 package edu.chapman.cpsc356.harna100.truefalse;
 
 import com.google.gson.Gson;
+import com.google.gson.internal.LinkedTreeMap;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,7 +38,7 @@ public class QuestionModel {
 
 		ArrayList<QuestionModel> toReturn = new ArrayList<>();
 		for (Object o : tempArray) {
-			Map<String, Object> curr = (HashMap<String, Object>) o;
+			Map<String, Object> curr = (LinkedTreeMap<String, Object>) o;
 			toReturn.add(new QuestionModel((String)curr.get("question"), (boolean)curr.get("answer")));
 		}
 

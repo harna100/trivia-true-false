@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TrueFalse</string>
+    <string name="text_true">True</string>
+    <string name="text_false">False</string>
+    <string name="question_placeholder">Question Placeholder</string>
+    <string name="answer_placeholder">Answer Placeholder</string>
+    <string name="right">You got it right!</string>
+    <string name="wrong">You got it wrong!</string>
+    <string name="out_of_questions">You ran out of questions! Restart press restart to play again!</string>
+    <string name="restart">Restart</string>
+</resources>

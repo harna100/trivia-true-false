@@ -34,11 +34,6 @@ public class MainActivity extends AppCompatActivity {
 				"{\"question\":\"Is it a live band?1\", \"answer\":true}," +
 				"{\"question\":\"Is it a live band?2\", \"answer\":true}," +
 				"{\"question\":\"Is it a live band?3\", \"answer\":true}]";
-//		questionsToUse.add(new QuestionModel("Is it a live band?", true));
-//		questionsToUse.add(new QuestionModel("Is it a live band? 1", false));
-//		questionsToUse.add(new QuestionModel("Is it a live band? 2", true));
-//		questionsToUse.add(new QuestionModel("Is it a live band? 3", false));
-//		questionsToUse.add(new QuestionModel("Is it a live band? 4", true));
 
 		questionsToUse = QuestionModel.ParseQuestions(json);
 		currQuestionPos = -1;
